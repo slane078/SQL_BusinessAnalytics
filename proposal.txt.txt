@@ -1,0 +1,24 @@
+Project 2 Proposal:
+
+Sean Lane
+Casey Hill
+
+	Current e-commerce sites can sometimes focus on the wrong data, giving their leadership and company a sense that REGISTERED USERS will be the driving force of marketplace health. What we plan to show is that Recency is the true driving force of a marketplace business - essentially your total user count doesn’t matter, it’s your frequent users that will be the “north star” from which your business can rely on growth.
+
+For our project, we will use data from a real company database, bstock.com. Our plan is to pull data from 3 of the top 5 marketplaces to see how new users’ activity and spend compare to those that have registered outside of our time restraints.
+
+Our ETL will work as follows:
+·	Use company’s existing MySQL Database to extract tables that will have monthly data on the amount of approved users, bids created, and auctions won for our marketplaces. 
+·	The data will be in monthly steps over the course of 1/1/2018 to 12/31/2018. 
+·	Once we’ve extracted for one site, we will use the same code to pull data for the other 2 sites.
+·	We will also pull total data numbers for our sites to compare to the timeframe above.
+·	We will then load our data into 3 csv files for loading into our javascript code.
+
+Our workplan will be:
+·	ETL data and define our 3 visualizations
+·	Visualizations: Line graph, bar graph, dynamic funnel visualizing conversion rates for each step of the user journey
+·	Create HTML/CSS/JS to contain our site and visualizations, including a write up on how the user journey will flow on our site.
+·	Create presentation around how our data was structured, loaded, and the storytelling of our data.
+
+We plan to show that a user who is new and recent will be more valuable per capita than the total of registered users outside of our dataset. Our story will be around how a business can see a clearer view of their actual userbase, and how a user’s journey will tell a better story than the largest number found.
+
